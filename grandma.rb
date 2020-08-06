@@ -6,8 +6,6 @@ def speak_to_grandma(phase)
     return "HUH?! SPEAK UP, SONNY!"
   elsif phrase.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-  elsif phase == "Hi Nana, how are you?"
-    return "HUH?! SPEAK UP, SONNY!"
   else
     return "HUH?! SPEAK UP, SONNY!"
   end
