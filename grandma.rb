@@ -7,6 +7,7 @@ def speak_to_grandma(phase)
   elsif phase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
   else 
+  # else state doesn't need a argument 
     return "NO, NOT SINCE 1938!"
   end
 end
