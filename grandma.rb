@@ -1,14 +1,14 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma(phase)
+def speak_to_grandma(phase.upcase)
   if phase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif phase == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   elsif phase == "Hi!"
     return "HUH?! SPEAK UP, SONNY!"
-  elsif phrase == "WHAT DID YOU EAT TODAY?"
+  elsif phrase.upcase == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
-  else phrase == "WHAT?"
+  else phrase.upcase == "WHAT?"
     return "NO, NOT SINCE 1938!"
   end
 end
