@@ -13,9 +13,6 @@ def speak_to_grandma(phase)
   end
 end
 
-
-
-
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
