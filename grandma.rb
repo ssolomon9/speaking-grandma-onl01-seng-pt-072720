@@ -8,6 +8,8 @@ def speak_to_grandma(phase)
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
+speak_to_grandma("Hi Nana, how are you")
+
 
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
